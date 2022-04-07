@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap');
+* {
+    font-family: 'Gothic A1', sans-serif;
+}
+body {
+min-width:fit-content;
+}
+body,h1,h2{
+    margin:0px;
+    padding:0px;
+}
+/*.intro{
+
+}*/
+.intro-img{
+    width: 100px;
+    height:120px;
+}
+h1{
+    font-size:36px;
+    font-weight:bold;
+    font-style:italic;
+    margin-bottom:8px;
+    margin:0px;
+    padding:0px;
+}
+
+.name-text{
+    font-size:16px;
+    color:#7c7c7c;
+    font-weight:bold;
+}
+
+
+.main-box{
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2);
+    width:610px;
+    padding:30px;
+    margin:30px;
+    margin-left:auto;
+    margin-right:auto;
+    border:1px solid #ebebeb;
+}
+
+h2{
+border-bottom:2px solid grey;
+padding-left: 6px;
+}
+
+.text{
+    float:left;
+}
+.year{
+    float:right;
+    text-align:left;
+}
+.float-wrap{
+    overflow:hidden;
+    padding:1px;
+    margin-bottom:4px;
+}
+
+.desc-text {
+    font-size: 12px;
+    margin-bottom:6px;
+    margin-top: 1px;
+}
+.desc-subtext {
+    font-size:10px;
+    margin-bottom:6px;
+    margin-top:2px;
+    color:#282828;
+    padding-left:16px
+}
+#color_input{
+    float:right;
+}
+footer{
+    text-align:center;
+    background-color: #1e1e1e;
+    padding:20px;
+    font-size:12px;
+    color:#919191;
+}
